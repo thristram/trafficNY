@@ -1,0 +1,39 @@
+#displayer {
+    position:fixed;
+    top:0px;
+    left:20px;
+    z-index:10001
+}
+.carNumberDisplay {
+    font-family: 'Open Sans', Helvetica, "Helvetica Neue", Arial;
+    color: rgba(74,111,165,0.3);
+    font-size: 5.8rem;
+    margin-top:1rem;
+}
+div.dg.main.a {
+    display:none
+}
+li {font-family: 'Open Sans', Helvetica, 'Helvetica Neue', Arial}
+.text-1 {color: #EF798A}
+.text-2 {color: #F7A9A8}
+.text-3 {color: #779CAB}
+.text-4 {color: #613F75}
+.text-0 {color: #7F055F}
+
+.controlButton {
+    margin:30px auto;
+    width: 80%;
+    height: 30%;
+    background: #C0D6DF;
+    text-align: center
+}
+.controlButton h3 {
+    padding:10%;
+    margin:0 auto;
+    font-family: 'Open Sans', Helvetica, 'Helvetica Neue', Arial
+}
+.name-input {
+    padding:20px 10% 20px;
+}
+
+

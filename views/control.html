@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Control</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/control.css">
+
+</head>
+<body style="background: #DBE9EE">
+<h3 class="carNumberDisplay" id="controlCarNumber" style="text-align: center">100</h3>
+<div class="form-group name-input">
+    <label for="exampleInputEmail1">Your Name</label>
+    <input id="name" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your name">
+    <small id="emailHelp" class="form-text text-muted">Your name will appear on the game</small>
+</div>
+<div class="controlButton" onclick="control(10)">
+    <h3>Add 10 Cars</h3>
+</div>
+<div class="controlButton" onclick="control(-10)">
+    <h3>Remove 10 Cars</h3>
+</div>
+<script
+        src="https://code.jquery.com/jquery-2.1.0.min.js"
+        integrity="sha256-8oQ1OnzE2X9v4gpRVRMb1DWHoPHJilbur1LP9ykQ9H0="
+        crossorigin="anonymous"></script>
+<script src="/js/remoteControl.js"></script>
+</body>
+</html>
